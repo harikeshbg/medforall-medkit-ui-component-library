@@ -1,0 +1,24 @@
+.wrap{ font-family: var(--mk-font); display:grid; gap: 8px; }
+.row{ display:flex; gap: 8px; }
+.input{
+  flex: 1;
+  border:1px solid var(--mk-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+.input:focus-visible{ outline: 2px solid var(--mk-primary); outline-offset: 2px; }
+.list{
+  border:1px solid var(--mk-border);
+  border-radius: 12px;
+  overflow:hidden;
+}
+.item{
+  padding: 10px 12px;
+  background:white;
+  border: none;
+  width: 100%;
+  text-align:left;
+  cursor:pointer;
+}
+.item:hover{ background: rgba(37,99,235,.08); }

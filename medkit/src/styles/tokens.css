@@ -1,0 +1,13 @@
+:root{
+  --mk-bg: #ffffff;
+  --mk-fg: #111827;
+  --mk-muted: #6b7280;
+  --mk-border: #e5e7eb;
+  --mk-primary: #2563eb;
+  --mk-danger: #dc2626;
+  --mk-success: #16a34a;
+  --mk-warning: #d97706;
+  --mk-radius: 12px;
+  --mk-shadow: 0 1px 2px rgba(0,0,0,.06);
+  --mk-font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}

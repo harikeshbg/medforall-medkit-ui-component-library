@@ -1,0 +1,25 @@
+.wrap{ font-family: var(--mk-font); display:grid; gap: 12px; }
+.grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 10px;
+}
+@media (max-width: 520px){
+  .grid{ grid-template-columns: 1fr; }
+}
+.field{ display:grid; gap: 6px; }
+.label{ font-size: 12px; color: var(--mk-muted); }
+.input{
+  border:1px solid var(--mk-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+.input:focus-visible{ outline: 2px solid var(--mk-primary); outline-offset: 2px; }
+.error{ color: var(--mk-danger); font-size: 12px; }
+.summary{
+  border:1px solid var(--mk-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background:#fafafa;
+}
